@@ -1,0 +1,78 @@
+% !TeX encoding = UTF-8
+% !TeX spellcheck = en_US
+\documentclass[10pt]{article}
+\usepackage{microtype}
+\usepackage{floatflt}
+
+
+\usepackage{sectsty}
+  \allsectionsfont{\centering}
+\usepackage{geometry}
+\geometry{margin=50pt,%
+  top=40pt ,bottom=60pt}
+\usepackage{tabularx}
+\usepackage{graphicx} % for images and tables
+\usepackage{caption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small,format=hang,labelfont={sf,bf}}
+\usepackage{booktabs}
+
+
+\usepackage{hyperref}
+% ------------ MATH PACKAGES -----------------------
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+% --------------------------------------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt plus 2pt minus 2pt}
+\linespread{1.167}
+\widowpenalty=700
+\clubpenalty=700
+\tolerance=500
+
+\usepackage{lipsum}
+\begin{document}
+\frenchspacing
+%\section*{------ Bachelor Degree in Applied Mathematics ------}
+%\begin{tabular}{lr}
+%\textbf{\Large Functional Analysis} & \textbf{\large 12 ECTS}\\[0.1cm] \hline \\
+%& prof. Giandomenico Orlandi\\
+%\multicolumn{2}{p{16cm}}{
+%	\begin{tabular}{ll}
+%		Syllabus:& \emph{If I start to write a very long text like this and so on and so on and so on... Only for checking if I require to introduce a new line}\\
+%	\end{tabular}} \\
+% & \textbf{Mark = }
+%\end{tabular}
+
+\section*{------ Master Degree in Mathematics ------}
+\begin{tabularx}{\textwidth}{p{13cm}rp{5cm}}
+	\textbf{\Large Functional Analysis} & \textbf{\large 12 ECTS}\\ \hline\\
+	\textbf{\large Mark: na} & \textbf{prof. Giandomenico Orlandi}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{lX}
+	Syllabus & \lipsum[1]\\
+\end{tabularx}
+
+\bigskip
+
+\begin{tabularx}{\textwidth}{p{13cm}rp{5cm}}
+	\textbf{\Large Differential Geometry} & \textbf{\large 6 ECTS}\\ \hline\\
+	\textbf{\large Mark: na} & \textbf{prof. Giandomenico Orlandi}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{lX}
+	Syllabus & \lipsum[1]\\
+\end{tabularx}
+
+\bigskip
+
+\begin{tabularx}{\textwidth}{p{13cm}rp{5cm}}
+	\textbf{\Large Stochastic Differential Equations} & \textbf{\large 6 ECTS}\\ \hline\\
+	\textbf{\large Mark: na} & \textbf{prof. Giandomenico Orlandi}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{lX}
+	Syllabus & \lipsum[1]\\
+\end{tabularx}
+
+\bigskip
+
+
+\end{document}
